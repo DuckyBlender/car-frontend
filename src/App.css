@@ -19,8 +19,22 @@
 img {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 1rem;
+  /* shadow */
+  box-shadow: 0 0 100px 0 rgb(0, 0, 0);
 }
 
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+  z-index: 1;
+  background-color: #4060a0;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+  margin-bottom: 1rem;
+}
 
 body {
   margin: 0;
