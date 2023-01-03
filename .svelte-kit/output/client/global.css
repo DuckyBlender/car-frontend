@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root {
+  --background: #34518a;
+}
+
+
+body {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* all img */
+img {
+  height: 75vh;
+  pointer-events: none;
+  border-radius: 1rem;
+  /* shadow */
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  z-index: 1;
+  background-color: var(--background);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+  margin-bottom: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  background-color: var(--background);
+  border-radius: 1rem;
+  width: 20vw;
+  height: 75vh;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+  
+}
+
+.Hero{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
