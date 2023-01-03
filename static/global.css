@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
-.App {
-  text-align: center;
+:root {
+  --background: #34518a;
+  --white: #ffffff;
 }
 
-.App-header {
+
+body {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -17,19 +20,19 @@
 
 /* all img */
 img {
-  height: 40vmin;
+  height: 75vh;
   pointer-events: none;
   border-radius: 1rem;
   /* shadow */
-  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
   z-index: 1;
-  background-color: #4060a0;
+  background-color: var(--background);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   box-shadow: 0 0 10px 0 rgb(0, 0, 0);
@@ -44,4 +47,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  background-color: var(--background);
+  border-radius: 1rem;
+  width: 20vw;
+  height: 75vh;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+  
+}
+
+.Hero{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+
 }
