@@ -1,4 +1,4 @@
-# car-frontent
+# car-frontend
 ### Simple front-end webapp in Svelte for displaying a video stream and handling input.
 
 ### How do you run it?
